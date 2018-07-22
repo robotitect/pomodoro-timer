@@ -1,6 +1,6 @@
 body
 {
-  background-color: red;
+  background-color: black;
   display: flex;
   align-items: center;
   text-align: center;
@@ -20,12 +20,16 @@ body
 .timer-text
 {
   color: lightgreen;
-  font-size: 300pt;
+  font-size: 20vw;
 
   border-style: solid;
   border-width: 10px 10px 10px 10px;
   border-radius: 60px;
   border-color: lightgreen;
+
+  padding: 15px 90px 15px 90px;
+
+  background-color: darkred;
 }
 
 .buttons
@@ -43,7 +47,7 @@ body
 
   background-color: darkred;
 
-  font-size: 40pt;
+  font-size: 4vw;
   color: lightgreen;
 
   border-style: solid;
